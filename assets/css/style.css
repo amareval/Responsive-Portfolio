@@ -154,3 +154,40 @@ h3 {
     
 }
 
+@media screen and (max-width: 768px){
+    #body{
+        width: 100%;
+        height: auto;
+    }
+    #bio{
+        width: 80%;
+        height: auto;
+    }
+    #connectme{
+        width: 80%;
+        height: auto;
+    }
+    #Top{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+    #body{
+        width: 640px;
+        height: auto;
+    }
+    #bio{
+        width: 500px;
+        height: auto;
+    }
+    #connectme{
+        width: 500px;
+        height: auto;
+    }
+    #Top{
+        width: 100%;
+    }
+    
+}
