@@ -104,7 +104,6 @@ width: 100%;
     width: 250px;
 }
 #hobbiesbox {
-    float: right;
     width: 45%;
     position: relative;
 }
@@ -213,3 +212,100 @@ h3 {
     margin-bottom: 10px;
 }
 
+
+
+@media screen and (max-width: 960px){
+    #body{
+        width: 100%;
+        height: auto;
+    }
+   
+    #bio{
+        width: 45%;
+        height: auto;
+    }
+    #portfolio{
+        width: 80%;
+        height: auto;
+    }
+    #explosion{
+        width: 250%;
+        height: auto;
+    }
+    #relax{
+        width: 250%;
+        height: auto;
+    }
+    #boxing{
+        width: 280%;
+        height: auto;
+    }
+    #Adventures{
+        width: 220%;
+        height: auto;
+    }
+    #Hobbies{
+        width: 220%;
+        height: auto;
+    }
+    #awards{
+        width: 260%;
+        height: auto;
+    }
+    #relaxport{
+        width: 225%;
+        height: auto;
+    }
+    #extra{
+        width: 225%;
+        height: auto;
+    }
+    #connectme{
+        width: 25%;
+        height: auto;
+    }
+    #Top{
+        width: 100%;
+    }
+ 
+    
+}
+
+@media screen and (max-width: 768px){
+    #body{
+        width: 100%;
+        height: auto;
+    }
+    #bio{
+        width: 80%;
+        height: auto;
+    }
+    #connectme{
+        width: 80%;
+        height: auto;
+        float: right;
+    }
+    #Top{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 640px){
+    #body{
+        width: 640px;
+        height: auto;
+    }
+    #bio{
+        width: 500px;
+        height: auto;
+    }
+    #connectme{
+        width: 500px;
+        height: auto;
+    }
+    #Top{
+        width: 100%;
+    }
+    
+}
